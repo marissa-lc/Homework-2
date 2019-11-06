@@ -12,7 +12,7 @@ header {
 
 }
 
-div {
+div  {
     float: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 200%;
@@ -23,7 +23,8 @@ div {
 }
 
 img {
-   float: left
+   float: left;
+   padding: 10px
 }
 
 p {
@@ -36,15 +37,6 @@ body {
     background-color: grey;
 
 }
-
-    
-<div class="Marissa Crawford">
-  <header>Header</header>
-</div>
-
-<div class="About Me">
-  <h1>h1/h1>
-</div>
 
 /*Contact*/
 
@@ -72,6 +64,7 @@ input[type=submit]:hover {
 }
 
 .container {
+  height: 750px;
   border-radius: 5px;
   background-color: white;
   padding: 20px;
