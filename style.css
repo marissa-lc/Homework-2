@@ -12,14 +12,24 @@ header {
 
 }
 
-div  {
+.media {
+  float: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 200%;
+  color: #4aaaa5;
+  background-color: white;
+  width: 960px;
+  height: 400px;
+}
+
+#id  {
     float: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 200%;
     color: #4aaaa5;
     background-color: white;
-    width: 900px;
-    height: 400px;
+    width: 960px;
+    height: 100px;
 }
 
 img {
@@ -73,9 +83,6 @@ input[type=submit]:hover {
 /*Portfolio*/
 
 
-{
-  box-sizing: border-box;
-}
 
 body {
   background-color: grey;
